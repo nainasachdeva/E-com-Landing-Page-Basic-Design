@@ -1,0 +1,50 @@
+body{
+    background-color: #FFFFDD;
+}
+.navbar{
+    display: inline-block;
+    color: #A2C579;
+}
+
+/* section{
+    background-color: #D2DE32;
+} */
+.banner-image{
+    width:100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.mainText{
+    font-size: 5rem;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    color: #016A70;
+    font-weight: 900;
+
+}
+.text{
+    margin: 20px 0px;
+    font-size: 3rem;
+    color: #016A70;
+    font-weight: 900;
+}
+.prod{
+    display: inline-block;
+    width: 120px;
+}
+footer{
+    background-color: #D2DE32;
+    color: #A2C579;
+    text-align: center;
+}
+
+@media(max-width: 900px){
+   .mainText{
+      font-size: 3rem;
+   }
+   .text{
+       font-size: 1rem;;
+   }
+}
